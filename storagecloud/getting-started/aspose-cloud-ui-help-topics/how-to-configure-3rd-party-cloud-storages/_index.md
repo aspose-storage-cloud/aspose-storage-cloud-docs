@@ -15,8 +15,8 @@ Following pages provide step by step configuration how to configure Aspose Cloud
 
 {{% /alert %}} 
 
-- [Configure Amazon S3 Storage](/configure-amazon-s3-storage-html/)
-- [Configure Azure Storage](/configure-azure-storage-html/)
-- [Configure DropBox Storage](/configure-dropbox-storage-html/)
-- [Configure FTP Storage](/configure-ftp-storage-html/)
-- [Configure Google Drive Storage](/configure-google-drive-storage-html/)
+- [Configure Amazon S3 Storage](/configure-amazon-s3-storage/)
+- [Configure Azure Storage](/configure-azure-storage/)
+- [Configure DropBox Storage](/configure-dropbox-storage/)
+- [Configure FTP Storage](/configure-ftp-storage/)
+- [Configure Google Drive Storage](/configure-google-drive-storage/)

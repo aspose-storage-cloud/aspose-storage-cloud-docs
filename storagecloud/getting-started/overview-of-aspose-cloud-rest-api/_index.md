@@ -159,7 +159,7 @@ Within the API we will have Resources (each identified by a URI) and Operations 
 
 Default 'empty' request <https://api.aspose.cloud/v1.1> redirects to service start page with a link to some helpful examples. Please check following articles for information regarding Request and Response Format and how to authenticate Aspose Cloud API request.
 
-- [Authenticating API Requests](/authenticating-api-requests-html/)
-- [JSON Web Token Authentication](/json-web-token-authentication-html/)
-- [Request Format](/request-format-html/)
-- [Response Format](/response-format-html/)
+- [Authenticating API Requests](/authenticating-api-requests/)
+- [JSON Web Token Authentication](/json-web-token-authentication/)
+- [Request Format](/request-format/)
+- [Response Format](/response-format/)

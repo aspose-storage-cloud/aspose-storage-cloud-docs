@@ -17,17 +17,12 @@ This API allows you to check the presence of a file or folder in the [Aspose Clo
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -35,13 +30,9 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to check presence of a file
 
 curl -v "https://api.aspose.cloud/v1.1/storage/exist?path=input.pdf" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer A03jLSHkq6zu\_A8kpxU6xPKOEkBFn7fX6\_hhKkAO0-2AFeI0UgB\_M\_D4O1cLkZSbfgGpbpA7oos3P8BhpbvDqHjcIkzTnSXBPkBJpRpWGdj2DwuQ9kd\_FuBMTiU5NBZ3gUOwDGuY7bUJejPw8NzOFsk6Lt9z9CCR2lOyWUpKzlPSTl3DSaIkZRKluuccL4sT-PqeDkOHgn6mewV0P0GsrBkoQo6LDk1RozojGDYvPDAqVPFHmwc20MHnMtXlE5CA-koBJa0LmXKFBRKNqv1COa9l4qrDRRtNcx1yJWPdpvY6udg3a1oD36qlzSNiMNaAFZNWESzK3lZEgr6uAFZeG6SC4SHcws6OITJKm7P\_VAjGElvAEAtnaO4qng6myB2prDUNIYHcwQkN4DaUPoQguJnPXbeB2WKV-u07p3y0fxAUZ82TOcew\_LO-vCb15pBSsvpIHX3n3XE-egWrngqShI3uDNE"
 
 ```

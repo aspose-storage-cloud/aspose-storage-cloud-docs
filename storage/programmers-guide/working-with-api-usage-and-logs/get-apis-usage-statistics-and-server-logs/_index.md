@@ -17,31 +17,21 @@ This API allows you to get your usage statistics and server logs for any period 
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get APIs Usage Statistics
 
 curl -v "https://api.aspose.cloud/v1.1/usage?start=2018-05-01&end=2018-05-30" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer qyc9asneEZsTZtRro3Qd2ZH38jQdBLabtIi5nE3DPgdbGolk0K8RQwB1kC1umqfp4rAKeP8gFTIRSRhl6uShnbX70X-\_ieDHPAK1cCAH1Kiq6fz8lnHZc-zXmHir\_TxsXrjvsjMGDwRmhjncUDMPhEU4Ah8rq0XT-8Q\_dz2lWCnJsrYMXp8S2jf0QRb3xmIT5Bw1lRxsDa9PeBQ9BxDPBNYBepAUKkjNCSywA4nnoAIBeKc6mt7cmIO3J3Kv4mYk\_r2z1Mog\_lgmFmzYrLLPTcKNUzFHOtSAjMlz8Tn2uyihbfXJVqu7pCDd6I1yIxvcHbNIgBd01tFTjQpHUh\_Pr5sKyhXg0RYLZNOSrREuRqcR04mSfR\_E9RsN5k1TReZxhfUY8oacfCeUIMysGOvGB-F9J5DR41DwkxrezAeYUPE8hGBm" \
-
 -o statistics.xlsx    
 
 ```

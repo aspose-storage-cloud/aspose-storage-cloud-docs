@@ -186,7 +186,7 @@ Aspose.Storage Cloud SDK for PHP can be installed using [RubyGems](https://ruby
 
 ```java
 
-gem install aspose\_storage\_cloud
+gem install aspose_storage_cloud
 
 ```
 

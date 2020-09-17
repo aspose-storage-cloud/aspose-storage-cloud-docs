@@ -94,7 +94,7 @@ public function registerBundles()
 
 // app/config/config.yml
 
-aspose\_cloud:
+aspose_cloud:
 
     url: http://api.aspose.com/v1.1
 
@@ -104,7 +104,7 @@ aspose\_cloud:
 
         key: yourkeyhere
 
-        outputLocation: "%kernel.cache\_dir%/aspose\_cloud/" # let the API save files in the cache directory by default
+        outputLocation: "%kernel.cache_dir%/aspose_cloud/" # let the API save files in the cache directory by default
 
 ```
 ## **Using**

@@ -1,7 +1,7 @@
 ---
 title: "Get APIs Usage Statistics and Server Logs"
 type: docs
-url: /get-apis-usage-statistics-and-server-logs/
+url: storage/get-apis-usage-statistics-and-server-logs/
 weight: 10
 ---
 
@@ -51,5 +51,3 @@ An .xlsx file
 {{< /tabs >}}
 ## **SDKs**
 Our API is completely independent of your operating system, database system or development language. You can use any language and platform that supports HTTP to interact with our API. However, manually writing client code can be difficult, error-prone and time-consuming. Therefore, we have provided and support API [SDKs](https://github.com/aspose-storage-cloud) in many development languages in order to make it easier to integrate with us. If you use [SDK](https://github.com/aspose-storage-cloud), it hides the [REST API](https://apireference.aspose.cloud/storage/) calls and lets you use Aspose.Storage features in a native way for your preferred language.
-
-

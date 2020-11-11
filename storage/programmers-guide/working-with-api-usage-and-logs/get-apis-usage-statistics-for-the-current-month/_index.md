@@ -1,7 +1,7 @@
 ---
 title: "Get APIs Usage Statistics for the Current Month"
 type: docs
-url: storage/get-apis-usage-statistics-for-the-current-month/
+url: /get-apis-usage-statistics-for-the-current-month/
 weight: 20
 ---
 

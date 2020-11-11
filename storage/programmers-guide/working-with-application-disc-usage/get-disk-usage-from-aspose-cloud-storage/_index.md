@@ -1,7 +1,7 @@
 ---
 title: "Get Disk Usage from Aspose Cloud Storage"
 type: docs
-url: storage/get-disk-usage-from-aspose-cloud-storage/
+url: /get-disk-usage-from-aspose-cloud-storage/
 weight: 10
 ---
 

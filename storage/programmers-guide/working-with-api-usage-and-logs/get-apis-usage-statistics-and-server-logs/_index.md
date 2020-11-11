@@ -1,7 +1,7 @@
 ---
 title: "Get APIs Usage Statistics and Server Logs"
 type: docs
-url: storage/get-apis-usage-statistics-and-server-logs/
+url: /get-apis-usage-statistics-and-server-logs/
 weight: 10
 ---
 

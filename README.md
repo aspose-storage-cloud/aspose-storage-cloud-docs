@@ -1,1 +1,1 @@
-This repository contains Aspose.Slides Cloud documentation.
+This repository contains Aspose.Storage Cloud documentation.

@@ -1,7 +1,7 @@
 ---
 title: "Working with Files"
 type: docs
-url: /storage/working-with-files/
+url: /working-with-files/
 weight: 10
 ---
 

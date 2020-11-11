@@ -1,7 +1,7 @@
 ---
 title: "Available SDKs"
 type: docs
-url: /available-sdks/
+url: /storage/available-sdks/
 weight: 30
 ---
 
@@ -26,15 +26,15 @@ PM> Install-Package Aspose.Storage-Cloud
 
 ```
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Complete source code of Aspose.Storage Cloud SDK for .Net is freely available on [GitHub](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/SDKs/Aspose.Storage-Cloud-SDK-for-.NET).
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
 Please see the Aspose.Storage Cloud SDK for .NET [Examples here](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/Examples/DotNET).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< /tab >}}
 
@@ -138,15 +138,15 @@ $ mvn eclipse:eclipse -DdownloadSources=true -DdownloadJavadocs=false
 
 <http://repository.aspose.cloud/repo/com/aspose/aspose-storage-cloud/>
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Complete source code of Aspose.Storage Cloud SDK for Jave is freely available on [GitHub](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/SDKs/Aspose.Storage-Cloud-SDK-for-Java).
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
 Please see the Aspose.Storage Cloud SDK for Java [Examples here](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/Examples/Java)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< /tab >}}
 
@@ -158,7 +158,7 @@ Aspose.Storage Cloud SDK for PHP can be installed using Composer.
 
 ```java
 
-require:{ 
+require:{
 
     "aspose/storage-sdk-php": "dev-master"
 
@@ -166,15 +166,15 @@ require:{
 
 ```
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Complete source code of Aspose.Storage Cloud SDK for PHP is freely available on [GitHub](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/SDKs/Aspose.Storage-Cloud-SDK-for-PHP).
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
 Please see the Aspose.Storage Cloud SDK for PHP [Examples here](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/Examples/PHP).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< /tab >}}
 
@@ -190,15 +190,15 @@ gem install aspose_storage_cloud
 
 ```
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Complete source code of Aspose.Storage Cloud SDK for Ruby is freely available on [GitHub](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/SDKs/Aspose.Storage-Cloud-SDK-for-Ruby).
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
 Please see the Aspose.Storage Cloud SDK for Ruby [Examples here](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/Examples/Ruby).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< /tab >}}
 
@@ -224,15 +224,15 @@ python setup.py install
 
 ```
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Complete source code of Aspose.Storage Cloud SDK for Python is freely available on [GitHub](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/SDKs/Aspose.Storage-Cloud-SDK-for-Python).
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
 Please see the Aspose.Storage Cloud SDK for Python [Examples here](https://github.com/aspose-total/Aspose.Total-for-Cloud/tree/master/Examples/Python).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< /tab >}}
 
@@ -318,7 +318,7 @@ By Host Info, we mean the main Aspose for Cloud API host URI along with version.
 
 {{< /tabs >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Once you have provided the above information, you can use all the other features of SDKs covered in the next sections.
 

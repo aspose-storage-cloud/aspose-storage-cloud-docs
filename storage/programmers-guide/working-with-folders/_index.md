@@ -1,7 +1,7 @@
 ---
 title: "Working with Folders"
 type: docs
-url: /storage/working-with-folders/
+url: /working-with-folders/
 weight: 20
 ---
 

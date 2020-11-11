@@ -1,14 +1,14 @@
 ---
 title: "Overview of Aspose Cloud REST API"
 type: docs
-url: /overview-of-aspose-cloud-rest-api/
+url: /storage/overview-of-aspose-cloud-rest-api/
 weight: 20
 ---
 
 **Table of Contents**
 
 - [Introduction](#Introduction)
-- [API Basics](#APIBasics) 
+- [API Basics](#APIBasics)
   - [Base URL](#BaseURL)
   - [Versions](#Versions)
   - [Routes](#Routes)

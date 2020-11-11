@@ -1,7 +1,7 @@
 ---
 title: "Working with API Usage and Logs"
 type: docs
-url: /storage/working-with-api-usage-and-logs/
+url: /working-with-api-usage-and-logs/
 weight: 40
 ---
 

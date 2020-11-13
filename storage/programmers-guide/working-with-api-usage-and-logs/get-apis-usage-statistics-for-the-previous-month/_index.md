@@ -8,7 +8,7 @@ weight: 30
 ## **Introduction**
 This API allows you to get your usage statistics and server logs for the pervious month. The information returned is in XLSX format so you can save response to XLSX format.
 ## **API Explorer**
-[Aspose.Platform Cloud API Reference](https://apireference.aspose.cloud/platform/) lets you try out [Get Pervious Month Usage API](https://apireference.aspose.cloud/platform/#!/Usage/Usage_GetUserUsagePreviousMonth) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
+[Aspose.Platform Cloud API Reference](https://apireference.aspose.cloud/) lets you try out [Get Pervious Month Usage API](https://apireference.aspose.cloud/platform/#!/Usage/Usage_GetUserUsagePreviousMonth) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/total/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

@@ -5,27 +5,13 @@ url: /authenticating-api-requests/
 weight: 10
 ---
 
-**Table of Contents**
-
-- [OAuth 2.0](#OAuth2.0) 
-  - [Applications](#Applications)
-  - [Get Access/Refresh Token](#GetAccess/RefreshToken) 
-    - [cURL Example](#cURLExample)
-  - [Obtain new Access/Refresh Token using the Refresh Token](#ObtainnewAccess/RefreshTokenusingtheRefreshToken) 
-    - [cURL Example](#cURLExample.1)
-  - [Call REST API](#CallRESTAPI) 
-    - [cURL Example](#cURLExample.2)
-  - [Tokens Lifetime](#TokensLifetime)
-- [URL Signing](#URLSigning) 
-  - [How to authenticate (URL Signing)](#Howtoauthenticate\(URLSigning\))
-
 There are two ways to authenticate Aspose for Cloud REST APIs.
 
 1. OAuth 2.0
 1. URL Signing
 
 Though we are still supporting URL Signing, we recommend our users to switch to OAuth 2.0 as it is an industry standard and more convenient to use.
-### **OAuth 2.0**
+## **OAuth 2.0**
 The Aspose Cloud REST API supports the OAuth 2.0 protocol using the **client_credentials** workflow to authorize calls.
 
 [OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework that enables applications to obtain access to user accounts data through our REST API. OAuth provides authorization flows for web and desktop applications, and mobile devices.
@@ -33,9 +19,9 @@ The Aspose Cloud REST API supports the OAuth 2.0 protocol using the **client_cr
 The basic concept and how it works is described in the next image:
 
 ![todo:image_alt_text](authenticating-api-requests_1.png)
-#### **Applications**
+### **Applications**
 To access the REST API using OAuth2.0 protocol, you need to [create an application](https://docs.aspose.cloud/display/totalcloud/Create+New+App+and+Get+App+Key+and+SID). To register new applications, login into the [Dashboard Developer](https://dashboard.aspose.cloud/#/) site using your Aspose Account, and go to the [My Apps](https://dashboard.aspose.cloud/#/apps) view. Once you create a new application, we will issue a **client_id** (App SID**)** and **client_secret** (App Key) that you can use to authenticate your REST API calls using the OAuth2.0 protocol. (You can generate new secrets for your Apps, but make sure you update it when issuing new access tokens using those credentials.)
-#### **Get Access/Refresh Token**
+### **Get Access/Refresh Token**
 After you have created a new application you can obtain an access token by sending a **POST** request to **/oauth2/token** endpoint. Still, you must authenticate your access token request using Client Credentials authorization grant type flow:
 
   POST request to: https://api.aspose.cloud/oauth2/token
@@ -50,7 +36,7 @@ After you have created a new application you can obtain an access token by sendi
 The endpoint acts as an authorization server and it verifies your credentials, if they are correct it returns a JSON ticket containing several items, through each, you can find the access_token, refresh_token, expire time of both tokens etc. The provided access_token is a Bearer Token that you can further use in the Authorization header of your request.
 
 For each Application you create in the dashboard, you can only have one refresh_token in use for it. Any new request for refresh_token will override and revoke the previous one.
-##### **cURL Example**
+#### **cURL Example**
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -96,7 +82,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **Obtain new Access/Refresh Token using the Refresh Token**
+### **Obtain new Access/Refresh Token using the Refresh Token**
 The access token is only valid for a small period of time, to continue to work with the REST API you can issue new access token by only using the refresh token provided at the above POST request. To obtain a new access token using the refresh token you can make a POST request to the same /oauth2/token endpoint but using different grant type this time:
 
   POST request to: https://api.aspose.cloud/oauth2/token
@@ -108,7 +94,7 @@ The access token is only valid for a small period of time, to continue to work w
       refresh_token: the-refresh-token-perviously-generated
 
 The returned ticket will be the same as the above, but a new refresh_token is issued now and the old one is revoked, so make sure you replace it in your application with the new one from the ticket you just received.
-##### **cURL Example**
+#### **cURL Example**
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -154,14 +140,14 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **Call REST API**
+### **Call REST API**
 Now that you have the Bearer Token (access_token) generated using the application credentials, you can make API calls and authorize by adding the access token in the ‘Authorization’ header, as it’s defined in the OAuth 2.0 protocol.
 
   Headers:
     Authorization: Bearer ACCESS_TOKEN
 
 *You authorize with one application, but you can access files from all storages in your account, or all Application’s default storage by specifying query parameters (storage or AppSid).*
-##### **cURL Example**
+#### **cURL Example**
 {{< tabs tabTotal="2" tabID="8" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -546,18 +532,18 @@ curl -v "https://api.aspose.cloud/v1.1/cells/myWorkbook.xlsx/documentproperties"
 
 {{< /tabs >}}
 
-#### **Tokens Lifetime**
+### **Tokens Lifetime**
 The time of the tokens is finite. By default, the **access_token** lifetime is **1 day**, and the **refresh_token** lifetime is **1 year**. Before you create a new access_token, use it and renew it only before it expires. To detect when an access token expires, you must write specific code that will check for any of these:
 
 - **expires_in** value in the ticket generated by OAuth2 endpoint.
 - will handle the **401 Unauthorized** error responses from the API endpoint and issue a request for a new token.
-### **URL Signing**
+## **URL Signing**
 Each Aspose for Cloud API request must include the following query string parameters:
 
 |**appSID**|The public key provided to a client that allows the Aspose API to know which client is making the API request|
 | :- | :- |
 |**signature**|A HMAC-SHA1 signature of the request that is generated by the client using their private key|
-#### **How to authenticate (URL Signing)**
+### **How to authenticate (URL Signing)**
 Aspose for Cloud uses URL signing for authorization of requests. All requests sent to the Aspose for Cloud Web Service must be signed using user's private key which they retrieve via the Web UI when they sign up. Using the Private key ensures that only authorized application can create valid REST requests to our Web API.
 
 Please take following steps to generate a valid signature (as an example we are using appSID=c821f123-1a8b-4b97-925a-9d69a6b2fcd8 and key=23e9d89a967a5f18142221fa8f7cbcd0):

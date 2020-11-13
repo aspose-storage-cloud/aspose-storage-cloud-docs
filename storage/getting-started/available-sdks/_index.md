@@ -1,7 +1,7 @@
 ---
 title: "Available SDKs"
 type: docs
-url: /storage/available-sdks/
+url: /available-sdks/
 weight: 30
 ---
 

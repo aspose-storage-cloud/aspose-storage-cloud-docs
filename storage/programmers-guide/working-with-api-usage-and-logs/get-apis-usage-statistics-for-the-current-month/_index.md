@@ -10,7 +10,7 @@ This API allows you to get your APIs Usage statistics and server logs for the cu
 
 For customers on Paid plans, the period is their current subscription period. For Free plan users, it is current month's usage.
 ## **API Explorer**
-[Aspose.Platform for Cloud API Reference](https://apireference.aspose.cloud/platform/) lets you try out [Get Current Period Usage API](https://apireference.aspose.cloud/platform/#!/Usage/GetUserUsageCurrentMonth) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
+[Aspose.Platform for Cloud API Reference](https://apireference.aspose.cloud/) lets you try out [Get Current Period Usage API](https://apireference.aspose.cloud/platform/#!/Usage/GetUserUsageCurrentMonth) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/total/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

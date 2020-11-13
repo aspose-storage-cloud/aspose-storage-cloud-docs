@@ -9,7 +9,7 @@ weight: 40
 - Log into <https://dashboard.aspose.cloud/#/>
 - Click **My Files** Tab
 - Expand **Storage** drop-down and select the desired Storage e.g "MyDropboxStorage"
-#### **Uploading Local File to Default Storage**
+### **Uploading Local File to Default Storage**
 - Click **Upload a File**
 - A dialog box appears, browse the desired file from your local machine. e.g "Input.docx" and click **Open**
 - **Close** the dialog box
@@ -24,7 +24,7 @@ You can view multiple properties of input.docx file i.e. Name, Size and Modified
 You can also observe the change in free and used space before and after uploading the file.
 
 {{% /alert %}}
-## **Creating a New Folder**
+### **Creating a New Folder**
 
 
 - Click **Create a Folder**
@@ -38,7 +38,7 @@ That's it. A folder "MyFolderName" has been successfully created.
 You can also view multiple properties i.e. FolderName, Size and Modified date.
 
 {{% /alert %}}
-## **Moving, Copying or Deleting a File**
+### **Moving, Copying or Deleting a File**
 
 
 - **Moving a File**

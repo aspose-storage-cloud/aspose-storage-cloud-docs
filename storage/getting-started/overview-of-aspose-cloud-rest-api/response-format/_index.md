@@ -24,7 +24,7 @@ XML root node - as a well-formed XML document the response has a root node of *<
 Where there is an array of results, for example if multiple Job Statuses are queried in a single API call, then the XML response type will return multiple nodes with a singular name (i.e. *<jobstatus>*) whereas the JSON return type will return a plural array of results (i.e. *"jobstatuses":*).
 ## **Reponses & Errors**
 All response codes are included in the HTTP Status response header, and in the *<status>* element of a response. HTTP status codes <status> values vary based on the type of operation, here is a summary;
-#### **GET Request - Possible Return Codes**
+### **GET Request - Possible Return Codes**
 
 |**HTTP Status Code**|**<status> Value**|**Description**|
 | :- | :- | :- |
@@ -38,7 +38,7 @@ All response codes are included in the HTTP Status response header, and in the *
 |406|NOT_ACCEPTABLE|Not Acceptable (server can't satisfy the Accept header specified by the client)|
 |500|APPLICATION_ERROR|Application Error|
 |503|SERVICE_UNAVAILABLE|Any temporary error which prevents a response.  Essentially this code tells HTTP-Aware clients they should wait and try again later.|
-#### **POST & PUT Request - Possible Return Codes**
+### **POST & PUT Request - Possible Return Codes**
 
 |**HTTP Status Code**|**<status> Value**|**Description**|
 | :- | :- | :- |
@@ -51,7 +51,7 @@ All response codes are included in the HTTP Status response header, and in the *
 |406|NOT_ACCEPTABLE|Not Acceptable (server can't satisfy the Accept header specified by the client)|
 |500|APPLICATION_ERROR|Application Error|
 |503|SERVICE_UNAVAILABLE|Any temporary error which prevents a response.  Essentially this code tells HTTP-Aware clients they should wait and try again later.|
-#### **DELETE Request - Possible Return Codes**
+### **DELETE Request - Possible Return Codes**
 
 |**HTTP Status Code**|**<status> Value**|**Description**|
 | :- | :- | :- |
@@ -69,7 +69,7 @@ More info on HTTP status codes can be found here: <http://www.w3.org/Protocols/r
 {{% /alert %}} 
 ## **Links to Other Resources**
 In our API every resource representation obtained from a REST API request must include URIs that identify that resource and the resources related to it. This allows for clients to traverse resources very easily without complete knowledge of the API structure - this is important for Aspose for Cloud since parts of our REST structure will be dynamic.
-#### **List Resources & Resources (with Sub-Resources)**
+### **List Resources & Resources (with Sub-Resources)**
 Where we have sub-resources we will use ATOM links to specify the URI for the sub-resource.  For version 1.0 of the REST API where a sub-resource is a collection (i.e. a list resource) we will not list the children in the parent resource, but simply have a link to the List sub-resource.  In a future version we may provide parameters which support "expansion" of sub-resources so that more information can be retrieved in a single request.  Here is a simplified example of each;
-##### **Version 1.0 Support - Lists just include links to the List sub-resource.**
+#### **Version 1.0 Support - Lists just include links to the List sub-resource.**
 In this version clients will need to make a subsequent request to the specific sub-resource to actually get the list of pages, we do not pull in any summary information about the pages into the document resource.

@@ -20,7 +20,7 @@ The basic concept and how it works is described in the next image:
 
 ![todo:image_alt_text](authenticating-api-requests_1.png)
 ### **Applications**
-To access the REST API using OAuth2.0 protocol, you need to [create an application](https://docs.aspose.cloud/display/totalcloud/Create+New+App+and+Get+App+Key+and+SID). To register new applications, login into the [Dashboard Developer](https://dashboard.aspose.cloud/#/) site using your Aspose Account, and go to the [My Apps](https://dashboard.aspose.cloud/#/apps) view. Once you create a new application, we will issue a **client_id** (App SID**)** and **client_secret** (App Key) that you can use to authenticate your REST API calls using the OAuth2.0 protocol. (You can generate new secrets for your Apps, but make sure you update it when issuing new access tokens using those credentials.)
+To access the REST API using OAuth2.0 protocol, you need to [create an application](/total/create-new-app-and-get-app-key-and-sid/). To register new applications, login into the [Dashboard Developer](https://dashboard.aspose.cloud/#/) site using your Aspose Account, and go to the [My Apps](https://dashboard.aspose.cloud/#/apps) view. Once you create a new application, we will issue a **client_id** (App SID**)** and **client_secret** (App Key) that you can use to authenticate your REST API calls using the OAuth2.0 protocol. (You can generate new secrets for your Apps, but make sure you update it when issuing new access tokens using those credentials.)
 ### **Get Access/Refresh Token**
 After you have created a new application you can obtain an access token by sending a **POST** request to **/oauth2/token** endpoint. Still, you must authenticate your access token request using Client Credentials authorization grant type flow:
 
@@ -548,8 +548,7 @@ Aspose for Cloud uses URL signing for authorization of requests. All requests se
 
 Please take following steps to generate a valid signature (as an example we are using appSID=c821f123-1a8b-4b97-925a-9d69a6b2fcd8 and key=23e9d89a967a5f18142221fa8f7cbcd0):
 
-1. Build the URL which requires to be signed including all parameters. 
-   ` `<https://api.aspose.com/1.1/storage/folder/test_folder>
+1. Build the URL which requires to be signed including all parameters. <https://api.aspose.com/1.1/storage/folder/test_folder>
 1. Remove trailing '/' character if any.
 1. Append App SID to the given URL as query parameter 
    <https://api.aspose.com/1.1/storage/folder/test_folder?appSID=c821f123-1a8b-4b97-925a-9d69a6b2fcd8>

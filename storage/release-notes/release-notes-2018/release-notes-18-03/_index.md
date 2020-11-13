@@ -7,7 +7,7 @@ weight: 10
 
 #Aspose.Storage Cloud 18.3 Release Notes
 
-## Major Features**
+## Major Features
 
 The SDKs include the following features:
 

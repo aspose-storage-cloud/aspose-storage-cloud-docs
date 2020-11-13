@@ -3,7 +3,6 @@ title: "Release Notes - 2018"
 type: docs
 <<<<<<< Updated upstream
 url: /release-notes-2018/
-
 weight: 10
 ---
 =======

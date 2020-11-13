@@ -8,7 +8,7 @@ weight: 40
 # **Introduction**
 This API allows you to download a particular file from the [Aspose Cloud Storage](https://dashboard.aspose.cloud/#/).
 ## **API Explorer**
-[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Download a File API](https://apireference.aspose.cloud/storage/#!/File/GetDownload) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](https://docs.aspose.cloud/display/totalcloud/Create+New+App+and+Get+App+Key+and+SID) to learn how to get your App Key and SID. 
+[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Download a File API](https://apireference.aspose.cloud/storage/#!/File/GetDownload) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/total/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

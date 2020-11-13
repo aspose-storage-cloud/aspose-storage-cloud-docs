@@ -1,18 +1,10 @@
 ---
 title: "Overview of Aspose Cloud REST API"
 type: docs
-url: /storage/overview-of-aspose-cloud-rest-api/
+url: /overview-of-aspose-cloud-rest-api/
 weight: 20
 ---
 
-**Table of Contents**
-
-- [Introduction](#Introduction)
-- [API Basics](#APIBasics)
-  - [Base URL](#BaseURL)
-  - [Versions](#Versions)
-  - [Routes](#Routes)
-  - [URI Structure](#URIStructure)
 ## **Introduction**
 This document outlines the design of a REST-based API for Aspose for Cloud, it covers both the structure of REST URLs as well as specific behavior linked to the API such as Authentication, Request Queuing, and Storage. The Aspose Cloud API will give developers access to all the key functions of the [downloadable Aspose componenets](https://www.aspose.com/) through a Software as a Service hosted model.
 
@@ -159,7 +151,7 @@ Within the API we will have Resources (each identified by a URI) and Operations 
 
 Default 'empty' request <https://api.aspose.cloud/v1.1> redirects to service start page with a link to some helpful examples. Please check following articles for information regarding Request and Response Format and how to authenticate Aspose Cloud API request.
 
-- [Authenticating API Requests](/authenticating-api-requests/)
-- [JSON Web Token Authentication](/json-web-token-authentication/)
-- [Request Format](/request-format/)
-- [Response Format](/response-format/)
+- [Authenticating API Requests](/storage/authenticating-api-requests/)
+- [JSON Web Token Authentication](/storage/json-web-token-authentication/)
+- [Request Format](/storage/request-format/)
+- [Response Format](/storage/response-format/)

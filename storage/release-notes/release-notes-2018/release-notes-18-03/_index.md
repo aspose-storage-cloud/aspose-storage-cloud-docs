@@ -1,7 +1,7 @@
 ---
 title: "Release Notes - 18.3"
 type: docs
-url: /storage/release-notes-18.3/
+url: /release-notes-18.3/
 weight: 10
 ---
 

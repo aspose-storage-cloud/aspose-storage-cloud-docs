@@ -8,9 +8,9 @@ weight: 20
 ## **Introduction**
 This API allows you to upload files to the third party storage.
 
-**Note:** You need to configure Third Party Storage with Aspose for Cloud before using this example. Please follow the instructions at [this page](https://docs.aspose.cloud/display/totalcloud/How+to+Configure+3rd+Party+Cloud+Storages) to configure your required storage.
+**Note:** You need to configure Third Party Storage with Aspose for Cloud before using this example. Please follow the instructions at [this page](/total/how-to-configure-3rd-party-cloud-storages/) to configure your required storage.
 ## **API Explorer**
-[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Upload a File API](https://apireference.aspose.cloud/storage/#!/File/PutCreate) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](https://docs.aspose.cloud/display/totalcloud/Create+New+App+and+Get+App+Key+and+SID) to learn how to get your App Key and SID.
+[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Upload a File API](https://apireference.aspose.cloud/storage/#!/File/PutCreate) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/total/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID.
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

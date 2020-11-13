@@ -5,7 +5,7 @@ url: /how-to-work-with-api-usage-logs/
 weight: 50
 ---
 
-## **Using My Usage tab**
+## **Using My Usages tab**
 - Log into <https://dashboard.aspose.cloud/#/>
 - Click the **My Usage** tab.
 - You can view the log of your API calls

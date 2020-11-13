@@ -5,18 +5,8 @@ url: /request-format/
 weight: 30
 ---
 
-**Table of Contents**
-
-- [Authenticating API Requests](#AuthenticatingAPIRequests)
-- [Content types](#Contenttypes)
-- [Request Parameters and Request Body](#RequestParametersandRequestBody)
-- [Retrieving Resources using HTTP GET Method](#RetrievingResourcesusingHTTPGETMethod) 
-  - [Safe & Idempotent](#Safe&Idempotent)
-- [Creating & Updating Resources using HTTP POST and PUT Methods](#Creating&UpdatingResourcesusingHTTPPOSTandPUTMethods) 
-  - [When to use POST and when to use PUT](#WhentousePOSTandwhentousePUT)
-- [Deleting Resources using HTTP DELETE Method](#DeletingResourcesusingHTTPDELETEMethod)
 ## **Authenticating API Requests**
-Please read [this article](http://docs.dynabic.com/display/totalcloud/Authenticating+API+Requests). It explained in detail how to authenticate Aspose for Cloud API requests.
+Please read [this article](https://docs.aspose.cloud/total/authenticating-api-requests/). It explained in detail how to authenticate Aspose for Cloud API requests.
 ## **Content types**
 The API handles request and response content types separated. To specify the response content type you have to set the *Accept-Header* header to:
 

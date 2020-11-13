@@ -5,18 +5,8 @@ url: /response-format/
 weight: 40
 ---
 
-**Table of Contents**
-
-- [Response Body](#ResponseBody)
-- [Reponses & Errors](#Reponses&Errors) 
-  - [GET Request - Possible Return Codes](#GETRequest-PossibleReturnCodes)
-  - [POST & PUT Request - Possible Return Codes](#POST&PUTRequest-PossibleReturnCodes)
-  - [DELETE Request - Possible Return Codes](#DELETERequest-PossibleReturnCodes)
-- [Links to Other Resources](#LinkstoOtherResources) 
-  - [List Resources & Resources (with Sub-Resources)](#ListResources&Resources\(withSub-Resources\)) 
-    - [Version 1.0 Support - Lists just include links to the List sub-resource.](#Version1.0Support-ListsjustincludelinkstotheListsub-resource.)
 ## **Response Body**
-In general every response from the API contains the following information, the default return type is XML, however JSON can be set by setting request Accept-Type header to "application/json", see [Request Format](https://docs.aspose.cloud/display/totalcloud/Request+Format) for samples.  The structure of the response body remains identical regardless of the response type.
+In general every response from the API contains the following information, the default return type is XML, however JSON can be set by setting request Accept-Type header to "application/json", see [Request Format](https://docs.aspose.cloud/total/request-format/) for samples.  The structure of the response body remains identical regardless of the response type.
 
 Where the response is xml/json, the specific method is always wrapped with the following generic response which also provide status codes and error messages;
 

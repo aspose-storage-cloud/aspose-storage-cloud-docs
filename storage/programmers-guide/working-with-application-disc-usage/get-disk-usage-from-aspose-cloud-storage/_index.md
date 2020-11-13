@@ -8,7 +8,7 @@ weight: 10
 ## **Introduction**
 This API allows you to get disk usage from the Aspose Cloud Storage.
 ## **API Explorer**
-[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Get Disk Usage API](https://apireference.aspose.cloud/storage/#!/Storage/GetDiscUsage) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
+[Aspose.Storage Cloud API Reference](https://apireference.aspose.cloud/storage/) lets you try out [Get Disk Usage API](https://apireference.aspose.cloud/storage/#!/Storage/GetDiscUsage) right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes. Please check [this article](/total/create-new-app-and-get-app-key-and-sid/) to learn how to get your App Key and SID. 
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

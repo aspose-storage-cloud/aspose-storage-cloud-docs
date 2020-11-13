@@ -4,5 +4,3 @@ type: docs
 url: /release-notes/
 weight: 40
 ---
-
-### **Release Notes**

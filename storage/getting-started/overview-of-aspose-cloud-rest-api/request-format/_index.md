@@ -33,11 +33,11 @@ Request Content-Type is not supported in version 1.0, but can be used to get res
 You can also use Accept header (Accept: application/json) to get the response in JSON format. 
 
 {{% /alert %}} 
-#### **Safe & Idempotent**
+### **Safe & Idempotent**
 All Aspose for Cloud HTTP GET requests will be Safe (they are guaranteed not to change the state of a resource), and idempotent (calling once has the same effect as multiple calls).  This is vital because the infrastructure of the Web and all HTTP Clients & Tools assumes GET request are safe in order to support Caching, Indexing etc.
 ## **Creating & Updating Resources using HTTP POST and PUT Methods**
 Resources will be created or updated by performing an HTTP PUT or HTTP POST to a resource URL. In a PUT or POST request, the properties of the object you wish to update will be represented as form urlencoded key/value pairs.  Generally, developers should set the HTTP Content-Type header to "application/x-www-form-urlencoded" when making requests like this, however, we should be flexible in what we receive so should not require this if the requests intention is obvious.
-#### **When to use POST and when to use PUT**
+### **When to use POST and when to use PUT**
 - **POST** is not idempotent and therefore will be used for CREATE operations where requesting the same URI multiple times should create multiple operations.
 - **PUT** is idempotent so is used for UPDATE operations where requesting the same URI multiple times simply has the same effect as calling it once.
 

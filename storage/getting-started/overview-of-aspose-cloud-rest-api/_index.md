@@ -25,7 +25,7 @@ There will be 3 sub-components within the API design (although these are largely
   - Aspose.OMR
 ## **API Basics**
 The Aspose Cloud API is a REST-based API for wide usability on the web across platforms. By default, the REST API returns XML formatted responses, but it is possible to get the response in JSON format by setting Content-Type to **application/json**. Accompanying the REST API will be Client SDKs for all major development platforms which will provide client libraries to make it very easy for developers to code against the Aspose Cloud APIs.
-#### **Base URL**
+### **Base URL**
 Aspose Cloud API requests are made by sending a correctly constructed HTTP requests to the following address, with arguments being generally submitted as **HTTP** **get** or **post** arguments and data files being sent as **HTTP** **post** method where necessary.
 
 ```html
@@ -33,7 +33,7 @@ Aspose Cloud API requests are made by sending a correctly constructed HTTP reque
 https://api.aspose.cloud/\*
 
 ```
-#### **Versions**
+### **Versions**
 Each version beginning with 1.0 will have its number as a part of the URL. So the next URLs are used for the first version:
 
 ```html
@@ -41,7 +41,7 @@ Each version beginning with 1.0 will have its number as a part of the URL. So th
 https://api.aspose.cloud/v1.1/\*
 
 ```
-#### **Routes**
+### **Routes**
 Each product uses its own URL route (key word) to separate its interface:
 
 1. File storage uses **storage** and sub routes **file** and **folder** for files and folders manipulation correspondingly;
@@ -146,7 +146,7 @@ https://api.aspose.cloud/v1.1/folder/subfolder/subsubfolder/file.txt
 where the file relative to application root folder path is folder/subfolder/subsubfolder/file.txt. See e.g. [Folder]() for additional details.
 
 While product services get the folder path as a query string folder parameter.
-#### **URI Structure**
+### **URI Structure**
 Within the API we will have Resources (each identified by a URI) and Operations (as much as possible covered by the 4 HTTP Methods: GET, POST, PUT and DELETE) which can be applied to those resources.
 
 Default 'empty' request <https://api.aspose.cloud/v1.1> redirects to service start page with a link to some helpful examples. Please check following articles for information regarding Request and Response Format and how to authenticate Aspose Cloud API request.

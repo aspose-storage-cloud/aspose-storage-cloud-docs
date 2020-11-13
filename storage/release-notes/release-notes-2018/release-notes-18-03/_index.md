@@ -5,7 +5,7 @@ url: /release-notes-18.3/
 weight: 10
 ---
 
-## Aspose.Storage Cloud 18.3 Release Notes
+**Aspose.Storage Cloud 18.3 Release Notes**
 
 ## Major Features
 
